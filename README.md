@@ -1,4 +1,4 @@
-# A-Frame Project
+# 360 view-A-Frame Project by Jags
 
 **[Subscribe to the A-Frame newsletter!](https://aframe.io/subscribe/)**
 
