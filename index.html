@@ -9,13 +9,21 @@
   <body>
     
     <a-scene canvas="" keyboard-shortcuts="" vr-mode-ui="">
-          <a-sky src="https://cdn.glitch.com/aa443f5c-73b6-4d1a-af77-a0efad55c86d%2FAO_360TW001A6400L.jpg?v=1624255074257"
-            width="1"
-            height="1"" rotation="0 -130 0" material="color:#FFF;shader:flat;src:url(https://davidwalsh.name/demo/puydesancy.jpg)" geometry="primitive:sphere;radius:5000;segmentsWidth:64;segmentsHeight:64" scale="-1 1 1"></a-sky>
+     <a-sky src="https://cdn.glitch.com/aa443f5c-73b6-4d1a-af77-a0efad55c86d%2FAO_360TW001A6400L.jpg?v=1624255074257"  " rotation="0 -130 0" geometry="primitive:sphere;radius:5000;segmentsWidth:64;segmentsHeight:64" scale="-1 1 1"> </a-sky>
+     
         <a-entity light="color:#fff;type:ambient" data-aframe-default-light="">
         </a-entity>
-          <a-entity light="color:#fff;intensity:0.2" position="-1 2 1" data-aframe-default-light=""></a-entity>
-                                                                                                   <a-entity position="0 1.8 4" data-aframe-default-camera=""><a-entity camera="active:true" wasd-controls="" look-controls="" rotation="-11.11538122553796 7.563042895726861 0" position="0 0 0"></a-entity></a-entity><canvas class="a-canvas" width="1440" height="757" style="height: 757px; width: 1440px;"></canvas><div class="a-enter-vr" data-a-enter-vr-no-headset="" data-a-enter-vr-no-webvr=""><button class="a-enter-vr-button"></button><div class="a-enter-vr-modal"><p>Your browser does not support WebVR. To enter VR, use a VR-compatible browser or a mobile phone.</p><a href="http://mozvr.com/#start" target="_blank">Learn more.</a></div></div><div class="a-orientation-modal a-hidden"><button>Exit VR</button></div></a-scene>
+        <a-entity light="color:#fff;intensity:0.2" position="-1 2 1" data-aframe-default-light="">
+        </a-entity>
+      <a-entity position="0 1.8 4" data-aframe-default-camera="">
+      <a-entity camera="active:true" wasd-controls="" look-controls="" rotation="-11.11538122553796 7.563042895726861 0" position="0 0 0"></a-entity></a-entity><canvas class="a-canvas" width="1440" height="757" style="height: 757px; width: 1440px;"></canvas>
+      <div class="a-enter-vr" data-a-enter-vr-no-headset="" data-a-enter-vr-no-webvr=""><button class="a-enter-vr-button"></button>
+        <div class="a-enter-vr-modal"><p>Your browser does not support WebVR. To enter VR, use a VR-compatible browser or a mobile phone.</p>
+          <a href="http://mozvr.com/#start" target="_blank">Learn more.</a>
+           </div>
+            </div>
+        <div class="a-orientation-modal a-hidden"><button>Exit VR</button> </div>
+    </a-scene>
 
     
   </body>
